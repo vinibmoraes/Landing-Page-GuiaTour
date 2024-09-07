@@ -1,4 +1,38 @@
 body {
   margin: 0;
-  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #e1624f;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2.5%;
+}
+
+.sub-img-1,
+.sub-img-2,
+.sub-img-3,
+.sub-img-4 {
+  img {
+    border-radius: 28px;
+    width: 100%;
+    height: 5%;
+    object-fit: cover;
+  }
+}
+
+.description {
+  color: #333;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-style: italic;
 }
